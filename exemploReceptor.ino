@@ -7,7 +7,6 @@ esp_now_peer_info_t peerInfo;
 uint8_t broadcastAddress[] = {0xA0, 0xB7, 0x65, 0x4A, 0x4D, 0x60};  // mac do esp32 receptor, para descobrir o mac de qualquer esp32, acesse o site random nerd
 
 typedef struct pacote {
-    int bot;
     int len;
     int ID;
     int ch[20];
